@@ -1,5 +1,6 @@
 import '@nomicfoundation/hardhat-foundry';
 import '@nomicfoundation/hardhat-toolbox';
+import '@nomicfoundation/hardhat-verify';
 import '@nomiclabs/hardhat-solhint';
 import '@openzeppelin/hardhat-upgrades';
 import 'dotenv/config';
@@ -41,7 +42,7 @@ const config: HardhatUserConfig = {
   // to verify smart-contract on Blockscout
   etherscan: {
     apiKey: {
-      bellecour: 'abc',
+      unichain: 'abc',
     },
     customChains: [
       {
@@ -49,7 +50,7 @@ const config: HardhatUserConfig = {
         chainId: 1301,
         urls: {
           apiURL: 'https://unichain-sepolia.blockscout.com/api',
-          browserURL: 'https://unichain-sepolia.blockscout.com/',
+          browserURL: 'https://unichain-sepolia.blockscout.com',
         },
       },
     ],
