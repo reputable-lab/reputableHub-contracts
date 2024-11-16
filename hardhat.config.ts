@@ -48,8 +48,8 @@ const config: HardhatUserConfig = {
         network: 'unichain',
         chainId: 1301,
         urls: {
-          apiURL: 'https://api-sepolia.uniscan.xyz/api',
-          browserURL: 'https://sepolia.uniscan.xyz/',
+          apiURL: 'https://unichain-sepolia.blockscout.com/api',
+          browserURL: 'https://unichain-sepolia.blockscout.com/',
         },
       },
     ],
